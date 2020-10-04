@@ -1,0 +1,29 @@
+body{
+    background: darkslategrey;
+    color: whitesmoke;
+}
+
+.navbar{
+    border-bottom: 3px solid gray;
+}
+#home-section{
+    background-image:url(../img/bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 700px;
+}
+#home-section .dark-overlay{
+    background:(rgba(0, 0, 0, 0.7))
+    min-height:700px;
+}
+#home-section .home-inner{
+    padding-top: 150px;
+    padding-bottom: 50px;
+}
+home-section .fs{
+    background:#fff;
+    color: royalblue;
+    font-size: 30px;
+    padding: 4px;
+    border border-radius: 5px;
+}
